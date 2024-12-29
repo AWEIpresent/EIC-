@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Cleaning Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Luxury Cleaning Service</h1>
+    <p>Experience the Art of Spotless Living</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#booking">Booking</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="home">
+    <h2>Welcome to Luxury Cleaning Service</h2>
+    <p>Your home or business deserves nothing less than perfection. We provide top-notch cleaning services that exceed expectations.</p>
+</div>
+
+<div class="container" id="about">
+    <h2>About Us</h2>
+    <p>We are a luxury cleaning service dedicated to delivering exceptional results. With a professional team and eco-friendly products, we transform spaces into spotless sanctuaries.</p>
+</div>
+
+<div class="container" id="services">
+    <h2>Our Services</h2>
+    <ul>
+        <li>Everyday Cleaning</li>
+        <li>Heavy-Duty Cleaning</li>
+        <li>Post-Construction Cleaning</li>
+        <li>Junk Removal</li>
+    </ul>
+</div>
+
+<div class="container" id="booking">
+    <h2>Book a Cleaning</h2>
+    <p>Fill out the form below to get a free quote and schedule your cleaning service.</p>
+    <form>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        <label for="service">Select Service:</label><br>
+        <select id="service" name="service">
+            <option value="everyday">Everyday Cleaning</option>
+            <option value="heavy-duty">Heavy-Duty Cleaning</option>
+            <option value="post-construction">Post-Construction Cleaning</option>
+            <option value="junk-removal">Junk Removal</option>
+        </select><br><br>
+        <label for="details">Additional Details:</label><br>
+        <textarea id="details" name="details" rows="4" cols="50"></textarea><br><br>
+        <button type="submit">Get a Quote</button>
+    </form>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Reach out to us!</p>
+    <p>Email: <a href="mailto:info@luxurycleaning.com">info@luxurycleaning.com</a></p>
+    <p>Phone: (404) 468-4387</p>
+    <p>Address: 30 Austin Terrace, Porterdale, GA, 30014</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Luxury Cleaning Service. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
